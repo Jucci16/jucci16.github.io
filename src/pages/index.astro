@@ -1,0 +1,25 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import Person from '../components/Person.tsx';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+		<Person client:load />
+			<h1> Hello, World!</h1>
+			<p>
+Welcome to my software developer portfolio, where innovation and code come together to create digital solutions. I am thrilled to invite you on a journey through my world of programming and development. Here, you will find a curated collection of my projects, each a testament to my passion for crafting elegant, efficient, and user-centric software. Whether you're a fellow developer, a potential collaborator, or someone simply curious about the art of coding, I hope this portfolio offers you insight into my skills, creativity, and dedication to the ever-evolving realm of technology. Please explore, and don't hesitate to reach out with any questions or opportunities for collaboration. Thank you for visiting, and let's embark on this digital adventure together.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
