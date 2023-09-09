@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger.js";
 export default function SlideIn({ children }) {
   const div = useRef(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.from(div.current, {
@@ -19,8 +19,6 @@ export default function SlideIn({ children }) {
         end: "top 60%",
       },
     });
-
-    console.log(div.current);
   }, [div]);
 
   return <div ref={div}>{children}</div>;

@@ -6,16 +6,19 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import Forest from '../components/Forest';
 import WorkExperienceContainer from '../components/WorkExperience/WorkExperienceContainer';
 import CertificationContainer from '../components/Certification/CertificationContainer';
+import Clients from '../components/Clients';
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+
 	</head>
 	<body>
 		<Header title={SITE_TITLE} />
-		<main style="width: 1000px;">
+		<main style="width: 1000px;" id="smooth-wrapper">
+		<div id="smooth-content" data-scroll-section>
 			<Forest client:load />
 			<h1 style="margin-bottom: -12px">John Ucci</h1>
 			<h2 style="color: #A0A0A0; font-size: 2rem">Software Developer Consultant at Improving</h2>
@@ -26,8 +29,10 @@ import CertificationContainer from '../components/Certification/CertificationCon
 In my free time, I often enjoy traveling the world with my beautiful girlfriend, Gillian. Some recent destinations that we have traveled have been Italy, Colombia, and Iceland. If we aren’t traveling, I tend to enjoy local camping trips and back yard bonfires with our friends. Sprinkle in some locally crafted Grand Rapids beers or some live music, and I’ll be entertained for the evening.
 			</p>
 
-			<WorkExperienceContainer client:load />
+			<WorkExperienceContainer client:load client:only />
+	    <Clients />
 			<CertificationContainer client:load />
+			</div>
 		</main>
 		<Footer />
 	</body>

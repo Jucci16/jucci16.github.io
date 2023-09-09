@@ -29,7 +29,13 @@ export default function WorkExperienceMobile({
       >
         {workExperienceProps.date}
       </h6>
-      <h4>{workExperienceProps.jobTitle}</h4>
+      <h4 style={{ marginBottom: "0" }}>{workExperienceProps.company}</h4>
+      <h6
+        style={{ color: "rgb(var(--light-gray))", textTransform: "uppercase" }}
+      >
+        {workExperienceProps.jobTitle}
+      </h6>
+
       <p style={{ color: "rgb(var(--light-gray))" }}>
         {workExperienceProps.description}
       </p>
