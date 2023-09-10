@@ -13,16 +13,15 @@ export interface WorkExperienceProps {
 export default function WorkExperience({
   workExperienceProps,
 }: WorkExperienceProps) {
-  const [isMobile, setIsMobile] = useState(null);
+  const query = `(max-width: 600px)`;
+  const [isMobile, setIsMobile] = useState(window.matchMedia(query).matches);
 
   useEffect(() => {
     const handler = (e) => setIsMobile(e.matches);
-    window.matchMedia("(max-width: 750px)").addEventListener("change", handler);
+    window.matchMedia(query).addEventListener("change", handler);
 
-    return window
-      .matchMedia("(max-width: 600px)")
-      .removeEventListener("change", handler);
-  });
+    return window.matchMedia(query).removeEventListener("change", handler);
+  }, []);
 
   return (
     <div>
@@ -35,8 +34,6 @@ export default function WorkExperience({
   );
 }
 
-function isSingleColumnLayout(): boolean {
-  const query = `(max-width: 600px)`;
-}
+function isSingleColumnLayout(): boolean {}
 
 // https://brittanychiang.com/
