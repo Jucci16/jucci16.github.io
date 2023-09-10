@@ -16,7 +16,7 @@ export default function CertificationContainer() {
   const certifications = [
     {
       imageSrc: "/microsoft-certified-associate-badge.svg",
-      title: "MicrosoftCertified: Azure Developer Associate",
+      title: "Microsoft Certified: Azure Developer Associate",
       description:
         "As a candidate for this certification, you’re responsible for participating in all phases of development, including requirements gathering, design, development, deployment, security, maintenance, performance tuning, and monitoring.",
     },
