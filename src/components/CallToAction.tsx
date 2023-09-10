@@ -44,9 +44,12 @@ export default function CallToAction() {
           textAlign: "center",
         }}
       >
-        Join me in my blog, maybe you will find something of use.
+        Check out my socials, maybe you will find something of use.
       </p>
-      <a href="/blog" style={buttonStyle}>
+      <a
+        href="https://www.linkedin.com/in/john-ucci-93921b141/"
+        style={buttonStyle}
+      >
         Click Here!
       </a>
       <img
