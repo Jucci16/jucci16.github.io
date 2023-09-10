@@ -12,7 +12,7 @@ export default function Clients() {
 
   const imageStyle = {
     borderRadius: ".5rem .5rem 0 0",
-    maxHeight: "18.75rem",
+    height: "18.75rem",
     width: "100%",
     objectFit: "cover",
     backgroundRepeat: "no-repeat",
@@ -29,7 +29,7 @@ export default function Clients() {
 
   return (
     <div style={{ marginTop: "5rem" }}>
-      <h3>Clients</h3>
+      <h3 style={{ marginBottom: "3rem" }}>Clients</h3>
       <div
         style={{
           width: "100%",
@@ -44,10 +44,11 @@ export default function Clients() {
           <div style={cardBodyStyle}>
             <h4>OnShift</h4>
             <p>
-              Transform the relationship between your organization and your
-              employees with our next-generation software purpose-built for
-              senior care. Dramatically reduce turnover rates, decrease costs
-              and improve the quality and continuity of care.
+              Since our inception, OnShift has been uniquely dedicated to the
+              needs of the long-term post-acute healthcare and senior living
+              workforce. We recognize that employees are your greatest asset,
+              and today it's more critical than ever to attract and retain staff
+              members.
             </p>
           </div>
         </div>
@@ -71,9 +72,23 @@ export default function Clients() {
           <div style={cardBodyStyle}>
             <h4>HON</h4>
             <p>
-              It's more than just an attitude. It's a commitment to our
-              customers. At HON, we know a thoughtfully designed workspace sets
-              the stage for better work. That's why we're here.
+              The HON Company provides workplace furniture for small and
+              medium-sized businesses, universities, large corporations and
+              government offices. Its core product offering includes
+              workstations, desks, chairs, tables and storage.
+            </p>
+          </div>
+        </div>
+
+        <div style={cardStyle}>
+          <img src="/Dematic.webp" style={imageStyle} />
+          <div style={cardBodyStyle}>
+            <h4>Dematic</h4>
+            <p>
+              Dematic is your trusted partner in designing, building, and
+              supporting intelligent automated solutions. We help companies like
+              yours power the future of commerce in manufacturing, warehousing,
+              and distribution.
             </p>
           </div>
         </div>

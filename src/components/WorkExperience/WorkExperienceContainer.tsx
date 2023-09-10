@@ -8,7 +8,7 @@ export default function WorkExperienceContainer() {
       jobTitle: "Software Developer Consultant",
       company: "Improving",
       description:
-        "The ability to identify project requirements. Deliver high-quality, enterprise-level code for a wide range of projects. Provide support and direction to clients where needed, while also growing each of the members on the client’s team. Deploying applications with modern and best practices (CI/CD)",
+        "Created internal marketing tools for clients. Worked with team leads and project management to create and plan project goals. Lead release and deployment cycles. Modernized legacy applications. Provided guidance and leadership to members of the team. Brought a new client application to General Availability.",
       technologies: [
         ".Net",
         "C#",
@@ -25,7 +25,7 @@ export default function WorkExperienceContainer() {
       jobTitle: "Configuration Services Software Consultant",
       company: "Open Systems Technologies",
       description:
-        "Construct customer extensions in Configura's 3D graphics engine. Mentored junior-level software developers. Design and implemented internal frameworks and tools used to increase development speed for new customers.",
+        "Developed tools to increase the onboarding process for new clients into the CET platform. Constructed customer extensions in Configrua’s 3D graphics engine. Assisted and designed best practice guidelines for the department code standards. Researched and implemented new services to sell to customers, such as Unity.",
       technologies: ["CET", "CM", "Unity", "ThreeJs", "Azure"],
     },
     {
@@ -33,7 +33,7 @@ export default function WorkExperienceContainer() {
       jobTitle: "Software Developer",
       company: "Union Home Mortgage",
       description:
-        "Created workflows, process, custom entities, plugins, web resources, and outward facing API's that integrated directly with CRM. Worked side by side with Encompass admins to create aesthetically pleasing and fully functional custom input forms.",
+        "Created Workflows, processes, custom entities, plugins, web resources, and outward facing API’s that integrated directly with Dynamics 365 CRM. Worked side by side with encompass admins to create aesthetically pleasing and fully functional input forms.",
       technologies: [
         "Dynamics 365",
         "Visual Basic",
