@@ -8,7 +8,7 @@ export default function WorkExperienceContainer() {
       jobTitle: "Software Developer Consultant",
       company: "Improving",
       description:
-        "Created internal marketing tools for clients. Worked with team leads and project management to create and plan project goals. Lead release and deployment cycles. Modernized legacy applications. Provided guidance and leadership to members of the team. Brought a new client application to General Availability.",
+      "Extended legacy application by adding new features in the Python oriented repository. Assisted with modernizing the legacy app by building the next iteration in React. Developed event driven .Net APIs with Azure Service Bus and Queues. Developed serverless function applications that were owned and managed by Terraform. Worked with team leads and project management to create and plan project goals. Lead release and deployment cycles. Brought a new client application to General Availability. Created internal marketing tools for clients by leveraging the power of Unity, which was integrated with a hand-crafted Python driven CMS."
       technologies: [
         ".Net",
         "C#",
